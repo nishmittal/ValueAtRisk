@@ -1,0 +1,26 @@
+	GUI
+		AddPortfolioDialog
+               ?? show portfolio content data as tooltip in list
+		
+		AddOptionDialog
+			input validation in text boxes
+				see adding NumberFormat to txtFields
+		
+		AddAssetDialog
+			?? create stock prices file and use it for asset
+			input validation in text boxes
+				see adding NumberFormat to txtFields
+			
+		Setup tab
+			?? Editing portfolio using AddPortfolioDialog (remove/add assets/options)
+			?? Editing Assets/Options too
+				?? update content of portfolio in contents list in tuples
+			?? save and load portfolios from file
+		model stock prices
+			?? graphs showing historical prices of assets
+	
+	Backend
+   		Refactor duplicate code
+   		?? GARCH parameter estimation
+		??Backtesting multiple stocks
+		GARCH long run average variance record and use
