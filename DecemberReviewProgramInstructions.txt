@@ -1,0 +1,33 @@
+Instructions to run interim Value at Risk (VaR) program.
+
+Standard usage: java -jar ValueAtRisk.jar <parameterFile.csv> <computationMethod>
+
+	First command line argument accepted is the location of the parameter file which contains information about the location of the historical price data and the respective investments made.
+	
+	Second command line argument is the method of computing VaR, 0 is Model Building, 1 is Historical Simulation, 2 is Monte Carlo Simulation.
+	
+Usage/help:		java -jar ValueAtRisk.jar
+				java -jar ValueAtRisk.jar help
+	
+	download jar file from repository location: https://svn.cs.rhul.ac.uk/personal/zvac052/Value%20at%20Risk/tags/InterimSubmission/ValueAtRisk.jar
+	
+	also download the sample parameter  and  historical stock price data files from: https://svn.cs.rhul.ac.uk/personal/zvac052/Value%20at%20Risk/tags/InterimSubmission/testing/
+	
+	You may have to note down the file locations in the parameter files or modify them to suit your needs.	
+	testParams2.csv assumes all stock data is in same folder as itself for example.
+	
+	for simplicity, keep jar file, parameter files and stock price data files in adjacent/same directories = program folder.
+	
+	open a command prompt in program folder (Shift+Right Click in program folder > Open command window here) or navigate to it in command prompt
+	
+	type in java -jar ValueAtRisk.jar testParams2.csv 0|1|2
+	
+	program will output the method of computing VaR it has deduced from the input
+	
+	program may also inform of any problems with the files provided
+	
+	depending on the mode of computing VaR specified, the program will prompt for a confidence level and time period to compute VaR for
+	
+	supply these and the program will output its results.
+	
+	

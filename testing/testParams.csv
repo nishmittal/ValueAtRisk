@@ -1,0 +1,4 @@
+Investment,stock_price_data_location
+1000,testing/GOOG_Tester.csv
+2000,testing/APPLE.csv
+1500,testing/MSFT_15082013_15112013.csv

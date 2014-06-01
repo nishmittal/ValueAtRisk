@@ -1,0 +1,2 @@
+The executable jar file does not seem to work well on the teaching OpenSUSE system.
+The executable jar file has been tested and is found to be working fine on the Windows 7 systems in the McCrea 125 Lab.
