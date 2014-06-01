@@ -48,6 +48,7 @@ public abstract class VarUtils
     static double               beta             = 0.90;
 
     // TODO best backtest results for 99% confidence
+    // need to get MLE done for each set of returns to optimise parameters
     /*
      * static double gamma = 0.01;
      * static double alpha = 0.02;

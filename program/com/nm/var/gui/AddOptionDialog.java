@@ -193,7 +193,6 @@ public class AddOptionDialog extends JDialog
         sl_pnlSpecs.putConstraint( SpringLayout.WEST, cboOptionType, 6, SpringLayout.EAST, lblType );
         sl_pnlSpecs.putConstraint( SpringLayout.EAST, cboOptionType, -12, SpringLayout.EAST,
                                    pnlSpecs );
-        // TODO check this populates correctly
         cboOptionType.setModel( new DefaultComboBoxModel<>( OptionType.values() ) );
         pnlSpecs.add( cboOptionType );
 

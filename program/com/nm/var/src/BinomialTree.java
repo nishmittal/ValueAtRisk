@@ -224,7 +224,7 @@ public class BinomialTree
         }
     }
 
-    // TODO: control variate technique
+    // TODO control variate technique
     /*
      * 1. value American option use tree to get fA
      * 2. value corresponding European option using same tree to get fE

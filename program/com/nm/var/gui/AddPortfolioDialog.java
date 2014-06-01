@@ -40,6 +40,7 @@ import com.nm.var.src.Portfolio;
 public class AddPortfolioDialog extends JDialog
 {
 
+    //TODO fix portfolio contents deletion, use one list?
     private static final long serialVersionUID = 1L;
 
     private final JPanel      contentPanel     = new JPanel();
