@@ -18,6 +18,7 @@
 			?? save and load portfolios from file
 		model stock prices
 			?? graphs showing historical prices of assets
+		FIX PORTFOLIO ITEMS NOT BEING REMOVED PROPERPLY - USE ONE LIST ONLY
 	
 	Backend
    		Refactor duplicate code
