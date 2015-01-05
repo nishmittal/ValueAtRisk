@@ -299,6 +299,7 @@ public class AddPortfolioDialog extends JDialog
                 }
                 assets.remove( assetToRemove );
                 options.remove( optionToRemove );
+             // TODO FIX PORTFOLIO ITEMS NOT BEING REMOVED PROPERLY - USE ONE LIST ONLY
             }
             // update portfolio
             portfolio = new Portfolio( assets, options );

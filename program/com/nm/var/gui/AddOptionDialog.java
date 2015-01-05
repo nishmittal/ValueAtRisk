@@ -300,7 +300,7 @@ public class AddOptionDialog extends JDialog
      * When the OK button is clicked, verifies all required data has been provided and builds an
      * Option object using it.
      */
-    protected void checkAndSaveOption()
+    protected void checkAndSaveOption() //TODO split into check then save where called.
     {
         boolean problem = false;
         double startPrice = 0, strike = 0, interest = 0, volatility = 0;

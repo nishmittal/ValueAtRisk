@@ -1,6 +1,8 @@
 	GUI
 		AddPortfolioDialog
                ?? show portfolio content data as tooltip in list
+               FIX PORTFOLIO ITEMS NOT BEING REMOVED PROPERPLY - USE ONE LIST ONLY
+		EDITING PORTFOLIOS	
 		
 		AddOptionDialog
 			input validation in text boxes
@@ -18,8 +20,7 @@
 			?? save and load portfolios from file
 		model stock prices
 			?? graphs showing historical prices of assets
-		FIX PORTFOLIO ITEMS NOT BEING REMOVED PROPERPLY - USE ONE LIST ONLY
-	
+		
 	Backend
    		Refactor duplicate code
    		?? GARCH parameter estimation

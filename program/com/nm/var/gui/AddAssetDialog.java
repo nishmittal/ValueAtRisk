@@ -43,16 +43,16 @@ public class AddAssetDialog extends JDialog
     private final JPanel      contentPanel     = new JPanel();
     private JLabel            lblStockData;
     private JLabel            lblId;
+    private JLabel            lblInvest;
     /** Text field containing the file path for the historical price data file. */
     private JTextField        txtStockData;
     /** Text field containing the name/identifier of the asset. */
     private JTextField        txtID;
     /** Text field containing the amount of investment made in the asset. */
     private JTextField        txtInvestment;
-    private JLabel            lblInvest;
     /** The historical stock price data file selected by the user for the asset. */
     private File              selectedFile;
-    /** The FileChooser shown whent the user needs to select a stock price data file. */
+    /** The FileChooser shown when the user needs to select a stock price data file. */
     private JFileChooser      chooser;
     /**
      * Used to keep track of the last directory used for a stock price data file so that the dialog
@@ -225,7 +225,7 @@ public class AddAssetDialog extends JDialog
      * When the OK button is clicked, verifies all required data has been provided and builds an
      * Asset object using it.
      */
-    protected void checkAndSaveAsset()
+    protected void checkAndSaveAsset() //TODO split into if (checkAsset) saveAsset where called.
     {
         String stockData = txtStockData.getText();
         String id = "Asset: " + txtID.getText();

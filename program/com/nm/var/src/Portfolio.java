@@ -21,7 +21,8 @@ public class Portfolio
     private ArrayList<Asset>  assets;
     /** Name of the portfolio for identification. */
     private String            name = "";
-
+    
+    
     /**
      * Initialises a blank portfolio. Assets and options can be added later.
      */
