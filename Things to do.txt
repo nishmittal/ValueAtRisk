@@ -23,5 +23,5 @@
 	Backend
    		Refactor duplicate code
    		?? GARCH parameter estimation
-		??Backtesting multiple stocks
+		?? Backtesting multiple stocks
 		GARCH long run average variance record and use
