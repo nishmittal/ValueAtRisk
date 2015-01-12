@@ -319,8 +319,8 @@ public class MonteCarloSimulation
 
         Arrays.sort( portfolioMinSimulatedValues );
         double maximumVaR = portfolioValue - portfolioMinSimulatedValues[0];
-        System.out.println( "Monte Carlo VaR (Portfolio - Maximum): "
-                            + VarUtils.round( maximumVaR ) );
+//        System.out.println( "Monte Carlo VaR (Portfolio - Maximum): "
+//                            + VarUtils.round( maximumVaR ) );
         this.monteCarloMaximumVar = maximumVaR;
 
         double[] finalMinValues = { valueAtPercentile, portfolioFinalSimulatedValues[0] };
